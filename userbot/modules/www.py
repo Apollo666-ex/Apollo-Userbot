@@ -46,16 +46,16 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**★♆ PING ♆★**")
-    await pong.edit("**★✫ PING ★✫**")
-    await pong.edit("**★✫★ PING ★✫★**")
-    await pong.edit("**★✫★✫ PING ★✫★✫**")
+    await pong.edit("**★♆ 𝐰𝐨𝐢𝐢 ♆★**")
+    await pong.edit("**★✫ 𝐏𝐈𝐌 ★✫**")
+    await pong.edit("**★✫★ 𝐏𝐈𝐌 ★✫★**")
+    await pong.edit("**★✫★✫ 𝐏𝐎𝐌 ★✫★✫**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**𖣘 PING** "
-                    f"\n  ⏭ `%sms` \n"
-                    f"**𖣘 MY LORD** "
-                    f"\n  ⏭ `{ALIVE_NAME}` \n" % (duration))
+    await pong.edit(f"**𖣘 𝐌𝐲 𝐏𝐈𝐍𝐆** "
+                    f"\n  ༆ `%sms` \n"
+                    f"**𖣘 𝐌𝐲 𝐁𝐎𝐒𝐒** "
+                    f"\n  ༆ `{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -63,10 +63,10 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`Lord Ping....Oi pler .........`")
+    await pong.edit("`Lord Ping......OI PLER..........`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**❖ PONG!**\n"
+    await pong.edit(f"**☯︎ 𝐏𝐨𝐧𝐠!**\n"
                     f"♆ **Ping:** "
                     f"`%sms` \n"
                     f"♆ **Uptime:** "
@@ -99,12 +99,12 @@ async def pingme(pong):
     await pong.edit("**𒋨 PONG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**♖ Lord apollo ♖**\n"
+    await pong.edit(f"**♖ 𝐓𝐔𝐀𝐍 𝐀𝐏𝐎𝐋𝐋𝐎 ♖**\n"
                     f"♆ Ping:** "
                     f"`%sms \n"
                     f"♆ Uptime:** "
                     f"`{uptime} \n"
-                    f"**♖ My Lord:** {ALIVE_NAME}`" % (duration))
+                    f"**♖ 𝐌𝐘 𝐁𝐎𝐒𝐒:** {ALIVE_NAME}`" % (duration))
                  
                
                     
