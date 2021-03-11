@@ -24,10 +24,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**Maaf Lord {ALIVE_NAME} Sedang AFK!**",
-    f"**Maaf Lord {ALIVE_NAME} Sedang AFK\n Tunggu Sampai Dia Kembali Online!**",
-    f"**Lord {ALIVE_NAME} Sedang AFK\n Tunggulah Sampai Online**",
-    f"**Maaf Lord {ALIVE_NAME} Sedang AFK!**",
+    f"**𝙼𝚊𝚊𝚏 𝙱𝚛𝚘𝚝𝚑𝚎𝚛  {ALIVE_NAME} 𝚂𝚎𝚍𝚊𝚗𝚐 𝙰𝙵𝙺!**",
+    f"**Maaf 𝙱𝚛𝚘𝚝𝚑𝚎𝚛 {ALIVE_NAME} 𝚂𝚎𝚍𝚊𝚗𝚐 𝙰𝙵𝙺\n 𝚃𝚞𝚗𝚐𝚐𝚞 𝙻𝚊𝚑 𝚂𝚊𝚖𝚙𝚊𝚒 𝙳𝚒𝚊 𝙺𝚎𝚖𝚋𝚊𝚕𝚒 𝙾𝚗𝚕𝚒𝚗𝚎!**",
+    f"**𝙱𝚘𝚜𝚜 {ALIVE_NAME} Sedang AFK\n 𝚃𝚞𝚗𝚐𝚐𝚞 𝙻𝚊𝚑 𝚂𝚊𝚖𝚙𝚊𝚒 𝙾𝚗𝚕𝚒𝚗𝚎 𝚂𝚊𝚋𝚊𝚛 𝚈𝚊𝚊.",
+    f"**Maaf 𝙼𝚢 𝙱𝚘𝚜𝚜 {ALIVE_NAME} 𝚂𝚎𝚍𝚊𝚗𝚐 𝙰𝙵𝙺!**",
 ]
 
 
@@ -62,10 +62,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**✘ AFK!**\n**Lord Telah AFK**\
+        await afk_e.edit(f"**✘ AFK!**\n**𝙼𝚢 𝙱𝚘𝚜𝚜 𝚃𝚎𝚕𝚊𝚑 𝙰𝙵𝙺**\
         \n☛ **Alasan:** `{string}`")
     else:
-        await afk_e.edit("**✘ AFK!**\n**Lord Telah AFK**")
+        await afk_e.edit("**✘ AFK!**\n**𝙼𝚢 𝙱𝚘𝚜𝚜 𝚃𝚎𝚕𝚊𝚑 𝙰𝙵𝙺**")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【AFK】"))
     else:
@@ -98,7 +98,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**Lord Telah Kembali!**")
+        msg = await notafk.respond("**𝐌𝐲 𝐁𝐨𝐬𝐬 𝐓𝐞𝐥𝐚𝐡 𝐊𝐞𝐦𝐛𝐚𝐥𝐢!**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
