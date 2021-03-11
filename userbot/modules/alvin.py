@@ -439,41 +439,41 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`halo`")
     sleep(1)
-    await typew.edit("`Namaku,Iqbar :)`")
+    await typew.edit("`𝐍𝐚𝐦𝐚𝐤𝐮, 𝐈𝐪𝐛𝐚𝐫 :)`")
     sleep(1)
-    await typew.edit("`Umur 16 Tahun`")
+    await typew.edit("`𝐔𝐦𝐮𝐫 16 𝐭𝐚𝐡𝐮𝐧`")
     sleep(1)
-    await typew.edit("`Asal Riau`")
+    await typew.edit("`𝐀𝐬𝐚𝐥 𝐫𝐢𝐚𝐮`")
     sleep(1)
-    await typew.edit("`Salken Ya pler🔥`")
+    await typew.edit("`𝐒𝐚𝐥𝐤𝐞𝐧 𝐲𝐚𝐚 𝐩𝐥𝐞𝐫🔥`")
  #create by myself @lubego666
 
-@register(outgoing=True, pattern='^.bocah tolol (?: |$)(.*)')
+@register(outgoing=True, pattern='^.bocah (?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`woii ajg`")
+    await typew.edit("`𝐰𝐨𝐢𝐢 𝐚𝐣𝐠`")
     sleep(1)
-    await typew.edit("`nih dengerin gw babi `")
+    await typew.edit("`𝐝𝐞𝐧𝐠𝐞𝐫𝐢𝐧 𝐠𝐰 𝐧𝐢𝐡 𝐛𝐚𝐛𝐢 `")
     sleep(1)
-    await typew.edit("`cuma mau bilang`")
+    await typew.edit("`𝐜𝐮𝐦𝐚 𝐦𝐚𝐮 𝐛𝐢𝐥𝐚𝐧𝐠`")
     sleep(1)
-    await typew.edit("`gausah so asik`")
+    await typew.edit("`𝐠𝐚𝐮𝐬𝐚𝐡 𝐬𝐨𝐤 𝐚𝐬𝐢𝐤 𝐥𝐚𝐡`")
     sleep(1)
-    await typew.edit("`emang kenal?`")
+    await typew.edit("`𝐞𝐦𝐚𝐧𝐠 𝐤𝐢𝐭𝐚 𝐤𝐞𝐧𝐚𝐥?`")
     sleep(1)
-    await typew.edit("`ngaca ya anjing`")
+    await typew.edit("`𝐧𝐠𝐚𝐜𝐚 𝐲𝐚𝐚 𝐛𝐚𝐛𝐢`")
     sleep(1)
-    await typew.edit("`jadi bocah gausah so2an `")
+    await typew.edit("`𝐣𝐚𝐝𝐢 𝐛𝐨𝐜𝐚𝐡 𝐠𝐚𝐮𝐬𝐚 𝐬𝐨2𝐚𝐧 `")
     sleep(1)
-    await typew.edit("`sini war`")
+    await typew.edit("`𝐬𝐢𝐧𝐢 𝐰𝐚𝐫`")
     sleep(1)
-    await typew.edit("`jamet ngentot `")
+    await typew.edit("`𝐣𝐚𝐦𝐞𝐭 𝐧𝐠𝐞𝐧𝐭𝐨𝐭 `")
     sleep(1)
-    await typew.edit("`mental kertas`")
+    await typew.edit("`𝐦𝐞𝐧𝐭𝐚𝐥 𝐤𝐞𝐫𝐭𝐚𝐬`")
     sleep(1)
-    await typew.edit("`gausa sok keras memek`")
+    await typew.edit("`𝐠𝐚𝐮𝐬𝐚 𝐬𝐨𝐤 𝐤𝐞𝐫𝐚𝐬 𝐦𝐞𝐦𝐞𝐤`")
     sleep(1)
-    await typew.edit("`lu kontol🔥`")
+    await typew.edit("`𝐥𝐮 𝐤𝐨𝐧𝐭𝐨𝐥🔥`")
     sleep(2)
 # Create by myself @bryan
 
@@ -491,6 +491,6 @@ CMD_HELP.update({
     \nUsage: Auk dah iseng doang.\
     \n\n`.self.\
     \nUsage: perkenalan.\
-    \n\n`.bocah tolol.\
+    \n\n`.bocah.\
     \nUsage: bocah gila."
 })
