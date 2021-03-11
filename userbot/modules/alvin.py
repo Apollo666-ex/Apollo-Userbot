@@ -434,6 +434,19 @@ async def typewriter(typew):
     await typew.edit("`Tapi Bo'ong`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern='^.b(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`halo`")
+    sleep(1)
+    await typew.edit("`Namaku,Iqbar :)`")
+    sleep(1)
+    await typew.edit("`Umur 16 Tahun`")
+    sleep(1)
+    await typew.edit("`Asal Riau`")
+    sleep(1)
+    await typew.edit("`Salken Ya pler`")
+
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
@@ -446,4 +459,5 @@ CMD_HELP.update({
     \nUsage: untuk jadi buaya.\
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
+    \n\n`.b`\
 })
