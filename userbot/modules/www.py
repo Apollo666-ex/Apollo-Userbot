@@ -99,7 +99,7 @@ async def pingme(pong):
     await pong.edit("**𒋨 𝐏𝐎𝐍𝐆!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**♖ 𝐓𝐔𝐀𝐍 𝐀𝐏𝐎𝐋𝐋𝐎 ♖**\n"
+    await pong.edit(f"**⚣︎ 𝐓𝐔𝐀𝐍 𝐀𝐏𝐎𝐋𝐋𝐎 ⚣︎**\n"
                     f"♆ Ping:** "
                     f"`%sms \n"
                     f"♆ Uptime:** "
@@ -159,7 +159,7 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("`Pong.....🔨`")
+    await pong.edit("`Pong.....۞`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit("✘ **Ping!**\n`%sms`" % (duration))
