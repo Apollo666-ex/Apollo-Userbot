@@ -223,18 +223,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n"
+        f" **┗┓𝘼𝙥𝙤𝙡𝙤 𝙐𝙎𝙀𝙍𝘽𝙊𝙏┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**♛ Lord** \n"
+        f"**♛ 𝙇𝙤𝙧𝙙** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**♛ Username** \n"
+        f"**♛ 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚** \n"
         f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} \n"
+        f"┣[• `𝙏𝙚𝙡𝙚𝙩𝙝𝙤𝙣 :`Ver {version.__version__} \n"
+        f"┣[• `𝙋𝙮𝙩𝙝𝙤𝙣   :`Ver {python_version()} \n"
+        f"┣[• `𝘼𝙥𝙤𝙡𝙤 𝙑𝙚𝙧  :`{BOT_VER} \n"
+        f"┣[• `𝙈𝙤𝙙𝙪𝙡𝙚𝙨  :`{len(modules)} \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
@@ -262,14 +262,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **༆ LORD USERBOT ༆** \n\n"
-        f"❃ **Lord**     \n   ➥ `{DEFAULTUSER}` \n"
-        f"❃ **Username** \n   ➥ `@{user.username}` \n"
-        f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
-        f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n"
+        f"     **༆ 𝘼𝙥𝙤𝙡𝙤 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 ༆** \n\n"
+        f"❃ **𝙇𝙤𝙧𝙙**     \n   ➥ `{DEFAULTUSER}` \n"
+        f"❃ **𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙨** \n   ➥ `@{user.username}` \n"
+        f"❃ **𝙏𝙚𝙡𝙚𝙩𝙝𝙤𝙣** \n   ➥ `Versi {version.__version__}` \n"
+        f"❃ **𝙋𝙮𝙩𝙝𝙤𝙣**   \n   ➥ `Versi {python_version()}` \n"
+        f"❃ **𝘼𝙥𝙤𝙡𝙤 𝘽𝙤𝙩**\n   ➥ `{BOT_VER}` \n"
+        f"❃ **𝙈𝙤𝙙𝙪𝙡**    \n   ➥ `{len(modules)}` \n\n"
+        f"❃ **𝘼𝙥𝙤𝙡𝙤 𝙐𝙨𝙚𝙧𝙗𝙤𝙩:** [𝘼𝙥𝙤𝙡𝙤-𝙐𝙨𝙚𝙧𝙗𝙤𝙩](https://github.com/Apollo666-ex/Apolo-Userbot)\n✵ **𝙂𝙧𝙤𝙪𝙥 𝙐𝙨𝙚𝙧𝙗𝙤𝙩: **[𝙏𝙚𝙠𝙖𝙣](t.me/LordUserbot_Group)\n✵ **𝙋𝙚𝙢𝙞𝙡𝙞𝙠:** [Alvin](t.me/liualvinas)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -306,7 +306,7 @@ async def amireallyalive(alive):
         f"┣|• `𝘽𝙤𝙩 𝙑𝙚𝙧  :`{BOT_VER} \n"
         f"┣|• `𝙈𝙤𝙙𝙪𝙡𝙚𝙨  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
+        f"[𝙍𝙚𝙥𝙤](https://github.com/Apollo666-ex/Apolo-Userbot) | [𝙂𝙧𝙤𝙪𝙥 𝙎𝙪𝙥𝙥𝙤𝙧𝙩](t.me/LordUserbot_Group) | [𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢](https://www.instagram.com/iqbarsymri)\n"
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
