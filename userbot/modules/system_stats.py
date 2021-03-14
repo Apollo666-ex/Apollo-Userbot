@@ -296,19 +296,20 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**𓆉︎ 𝘼𝙥𝙤𝙡𝙡𝙤 𝙐𝙎𝙀𝙍𝘽𝙊𝙏** \n"
+        f"**♕ʙʀʏᴀɴ-ᴜsᴇʀʙᴏᴛ** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `𝘽𝙤𝙨𝙨     :`{DEFAULTUSER} \n"
-        f"┣|• `𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚 :`@{user.username} \n"
-        f"┣|• `𝙏𝙚𝙡𝙚𝙩𝙝𝙤𝙣 :`Ver {version.__version__} \n"
-        f"┣|• `𝙋𝙮𝙩𝙝𝙤𝙣   :`Ver {python_version()} \n"
-        f"┣|• `𝘽𝙧𝙖𝙣𝙘𝙝   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `𝘽𝙤𝙩 𝙑𝙚𝙧  :`{BOT_VER} \n"
-        f"┣|• `𝙈𝙤𝙙𝙪𝙡𝙚𝙨  :`{len(modules)} Modules \n"
+        f"┣|• `𝕵𝖆𝖒𝖊𝖙     :`{DEFAULTUSER} \n"
+        f"┣|• `𝖀𝖘𝖊𝖗 𝖏𝖆𝖒𝖊𝖙 :`@{user.username} \n"
+        f"┣|• `𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓   :`Ver {version.__version__} \n"
+        f"┣|• `𝕻𝖞𝖙𝖍𝖔𝖓    :`Ver {python_version()} \n"
+        f"┣|• `𝕭𝖗𝖆𝖓𝖈𝖍   :`{UPSTREAM_REPO_BRANCH} \n"
+        f"┣|• `𝕭𝖔𝖙 𝖛𝖊𝖗 :`{BOT_VER} \n"
+        f"┣|• `𝕸𝖔𝖉𝖚𝖑𝖊  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[𝙍𝙚𝙥𝙤](https://github.com/Apollo666-ex/Apolo-Userbot) | [𝙂𝙧𝙤𝙪𝙥 𝙎𝙪𝙥𝙥𝙤𝙧𝙩](t.me/LordUserbot_Group) | [𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢](https://www.instagram.com/iqbarsymri)")
-     if ALIVE_LOGO:
-       try: logo = ALIVE_LOGO
+        f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
+    if ALIVE_LOGO:
+        try:
+            logo = ALIVE_LOGO
             await alive.delete()
             msg = await bot.send_file(alive.chat_id, logo, caption=output)
             await asyncio.sleep(500)
