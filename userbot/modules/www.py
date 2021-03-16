@@ -110,16 +110,9 @@ async def pingme(pong):
                     f"`%sms \n"
                     f"♆ 𝙐𝙋𝙏𝙄𝙈𝙀:** "
                     f"`{uptime} \n"
-                    f"**♕︎ 𝙈𝙔 𝘽𝙊𝙎𝙎:** {ALIVE_NAME}`" % (duration))
-                 
-               
-                    
-                  
-                    
-                   
-                    
-              
-
+                    f"**♕︎ 𝙈𝙔 𝘽𝙊𝙎𝙎:** {ALIVE_NAME}`" % (duration                  
+                              
+                          
 
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
