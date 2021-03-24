@@ -230,12 +230,12 @@ async def amireallyalive(alive):
         f" ➥ `{DEFAULTUSER}` \n"
         f"**♛ 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚** \n"
         f" ➥ `@{user.username}` \n"
-        f"┏━━━━━━━━━━━━━━━━━━━\n"
+        f"╔.☆. .═════════════.✵.╗\n"
         f"┣[• `𝙏𝙚𝙡𝙚𝙩𝙝𝙤𝙣 :`Ver {version.__version__} \n"
         f"┣[• `𝙋𝙮𝙩𝙝𝙤𝙣   :`Ver {python_version()} \n"
         f"┣[• `𝘼𝙥𝙤𝙡𝙤 𝙑𝙚𝙧  :`{BOT_VER} \n"
         f"┣[• `𝙈𝙤𝙙𝙪𝙡𝙚𝙨  :`{len(modules)} \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+        f"╚═════════════════.✵.╝")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -298,13 +298,13 @@ async def amireallyalive(alive):
     output = (
         f"**♕ʙʀʏᴀɴ-ᴜsᴇʀʙᴏᴛ** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `𝕵𝖆𝖒𝖊𝖙     :`{DEFAULTUSER} \n"
-        f"┣|• `𝖀𝖘𝖊𝖗 𝖏𝖆𝖒𝖊𝖙 :`@{user.username} \n"
-        f"┣|• `𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓   :`Ver {version.__version__} \n"
-        f"┣|• `𝕻𝖞𝖙𝖍𝖔𝖓    :`Ver {python_version()} \n"
-        f"┣|• `𝕭𝖗𝖆𝖓𝖈𝖍   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `𝕭𝖔𝖙 𝖛𝖊𝖗 :`{BOT_VER} \n"
-        f"┣|• `𝕸𝖔𝖉𝖚𝖑𝖊  :`{len(modules)} Modules \n"
+        f"┣|• `𝗕𝗼𝘀𝘀     :`{DEFAULTUSER} \n"
+        f"┣|• `𝗨𝘀𝗲𝗿  :`@{user.username} \n"
+        f"┣|• `𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻   :`Ver {version.__version__} \n"
+        f"┣|• `𝗣𝘆𝘁𝗵𝗼𝗻    :`Ver {python_version()} \n"
+        f"┣|• `𝗕𝗿𝗮𝗻𝗰𝗵   :`{UPSTREAM_REPO_BRANCH} \n"
+        f"┣|• `𝗕𝗼𝘁 𝗩𝗲𝗿 :`{BOT_VER} \n"
+        f"┣|• `𝗠𝗼𝗱𝘂𝗹𝗲  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
     if ALIVE_LOGO:
