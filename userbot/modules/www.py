@@ -121,7 +121,7 @@ async def pingme(pong):
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
-    await spd.edit("`Menjalankan Tes Kecepatan Tinggi...🚀`")
+    await spd.edit("`Menuju Tak Terbatas Dan Melampauinya...🚀`")
     test = Speedtest()
 
     test.get_best_server()
