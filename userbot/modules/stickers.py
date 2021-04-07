@@ -54,7 +54,7 @@ async def kang(args):
                 in message.media.document.attributes
             ):
                 emoji = message.media.document.attributes[1].alt
-                if emoji != "👑":
+                if emoji != "⚡":
                     emojibypass = True
         elif "tgsticker" in message.media.document.mime_type:
             await args.edit(f"`{random.choice(KANGING_STR)}`")
@@ -76,7 +76,7 @@ async def kang(args):
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "👑"
+            emoji = "⚡"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
@@ -175,7 +175,7 @@ async def kang(args):
                         return await args.edit(
                             "`Sticker ditambahkan ke pack yang berbeda !"
                             "\nIni pack yang baru saja Lord buat!"
-                            f"\nTekan [Lord Sticker](t.me/addstickers/{packname}) Untuk Melihat Sticker Lord",
+                            f"\nTekan [Apollo Sticker](t.me/addstickers/{packname}) Untuk Melihat Sticker Lord",
                             parse_mode="md",
                         )
                 if is_anim:
@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[Lord Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
+            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[Apollo Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
             parse_mode="md",
         )
 
@@ -275,7 +275,7 @@ async def resize_photo(photo):
 async def get_pack_info(event):
     if not event.is_reply:
         return await event.edit(
-            "`Mohon Balas Ke Sticker Lord`"
+            "`Mohon Balas Ke Sticker Pol`"
         )
 
     rep_msg = await event.get_reply_message()
@@ -330,7 +330,7 @@ async def sticker_to_png(sticker):
     try:
         img.document.attributes[1]
     except Exception:
-        await sticker.edit("`Maaf Lord, Ini Bukanlah Sticker`")
+        await sticker.edit("`Maaf Pol, Ini Bukanlah Sticker`")
         return
 
     with io.BytesIO() as image:
