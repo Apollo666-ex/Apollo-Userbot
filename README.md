@@ -65,4 +65,5 @@ TERIMAKASIH UNTUK
 *   [༺αиυвιѕ༻](https://github.com/Dark-Princ3) - X-tra-Telegram
 *   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
+*   [Instagram](https://instagram.com/iqbarcalm)
 *   DAN BANYAK LAGI 
